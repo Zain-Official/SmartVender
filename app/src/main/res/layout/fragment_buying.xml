@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/text_color"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Chat.BuyingFragment">
+
+    <TextView
+        android:textColor="#000"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:text="@string/no_messages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+
+    <ImageView
+        android:layout_gravity="center"
+        android:src="@drawable/smartvender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:padding="5dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="@string/keep_messages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+ <TextView
+        android:padding="5dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="@string/trying_buy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+    <Button
+        android:padding="15dp"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:background="@color/background_color"
+        android:text="@string/explore_latest_ads"
+        android:textColor="@color/text_color"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

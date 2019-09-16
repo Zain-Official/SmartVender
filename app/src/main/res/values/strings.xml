@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Smart Vendors</string>
+    <string name="pakistans">"Pakistan's No.1"</string>
+    <string name="build_store">"Building Material Store"</string>
+    <string name="current_loc">"Current Location"</string>
+    <string name="category">"Browse categories"</string>
+    <string name="seall">"SEE ALL"</string>
+    <string name="my_profile">"PROFILE"</string>
+    <string name="homee">"HOME"</string>
+    <string name="cha_t">"CHATS"</string>
+    <string name="sel_l">"SELL"</string>
+    <string name="my_ads">"MY ADS"</string>
+    <string name="all">"ALL"</string>
+    <string name="buying">"BUYING"</string>
+    <string name="selling">"SELLING"</string>
+    <string name="smart_vender">"Smart Vendor"</string>
+    <string name="ads">"ADS"</string>
+    <string name="favourite">"FAVOURITES"</string>
+    <string name="no_messages">"No messages,Yet?"</string>
+    <string name="keep_messages">"We'll keep messages for any items"</string>
+    <string name="keep_message">"We'll keep messages for any item"</string>
+    <string name="trying_buy">"you're trying to buy in here"</string>
+    <string name="seling_here">"you're selling in here"</string>
+    <string name="explore_latest_ads">"EXPLORE THE LATEST ADS"</string>
+    <string name="star_selling">"START SELLING"</string>
+    <string name="u_havent_listed">"You haven't listed anything yet"</string>
+    <string name="let_go">"Let go of what you don't use anymore"</string>
+    <string name="post_btn">"POST"</string>
+    <string name="discover">"DISCOVER"</string>
+    <string name="setting">"Settings"</string>
+    <string name="help_center">"Help center and legal terms"</string>
+    <string name="help_and_support">"Help and Support"</string>
+    <string name="privacy_logout">"Privacy and logout"</string>
+    <string name="u_dont_like">"You haven't liked anything yet"</string>
+    <string name="collect_thing">"Collect all the things"</string>
+    <string name="u_like_post">"You like in one place"</string>
+    <string name="what_r_u_">"WHAT ARE YOU OFFERING?"</string>
+    <string name="view_profile">"View and edit profile"</string>
+    <string name="left_steps">"2 steps left"</string>
+    <string name="profile_description_1">"Smart Vendor is built on trust. Help other people get to know you. Tell them about the things you like."</string>
+    <string name="my_orders_1">"My Orders &amp; Billing"</string>
+    <string name="my_orders_2">"Orders, billing and invoices"</string>
+    <string name="fresh_revom">"Fresh recommendations"</string>
+    <string name="continue_with_google">"CONTINUE WITH GOOGLE"</string>
+    <string name="continue_with_facebook">"CONTINUE WITH FACEBOOK"</string>
+    <string name="continue_with_phone">"CONTINUE WITH PHONE"</string>
+    <string name="continue_with_email">"CONTINUE WITH EMAIL"</string>
+    <string name="if_u_r_continue">"If you continue,you are accepting"</string>
+    <string name="term_condition">" Smart Vender Terms and Conditions and Privacy Policy "</string>
+
+    <string name="aluminium">"Aluminium"</string>
+    <string name="bircks">"Bricks"</string>
+    <string name="cement">"Cement"</string>
+    <string name="door"> "Door"</string>
+    <string name="electric">"Electric"</string>
+    <string name="electronics">"Electronics"</string>
+    <string name="exterior">"Exterior"</string>
+    <string name="grit">"Grit"</string>
+    <string name="hardware"> "Hardware"</string>
+    <string name="iron">"Iron"</string>
+    <string name="interior">"Interior"</string>
+    <string name="marbal"> "Marbal"</string>
+    <string name="paint">  "Paint"</string>
+    <string name="sanitary"> "Sanitary"</string>
+    <string name="sand">"Sand"</string>
+    <string name="tiles"> "Tiles"</string>
+    <string name="woodwork"> "Wood Work"</string>
+    <string name="more_categories">"More Categories"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

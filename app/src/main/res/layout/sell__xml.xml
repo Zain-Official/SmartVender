@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_layout" />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+   <android.support.v4.widget.NestedScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+
+
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/sell_item_border_design"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/aloy_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/aluminium"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/sell_item_border_design"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/brick_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/bircks"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/sell_item_border_design"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/cement_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/cement"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/sell_item_border_design"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/door_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/door"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/sell_item_border_design"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/electric_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/electric"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/sell_item_border_design"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/electronics_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Electric"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/sell_item_border_design"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/exterior_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/exterior"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/sell_item_border_design"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/grit_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/grit"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/sell_item_border_design"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/hardware_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/hardware"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/sell_item_border_design"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/aloy_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/iron"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/sell_item_border_design"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/interior" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/interior"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/sell_item_border_design"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/marble_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/marbal"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/sell_item_border_design"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/paint_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/paint"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/sell_item_border_design"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/sand_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/sand"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/sell_item_border_design"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/basin_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/sanitary"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/sell_item_border_design"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/tile_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/tiles"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/sell_item_border_design"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/wood_work_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/woodwork"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/sell_item_border_design"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/marble_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/more_categories"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+       </LinearLayout>
+
+   </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>
